@@ -1,0 +1,19 @@
+{
+  "name": "weiss-pro-docs",
+  "version": "0.0.1",
+  "description": "Official documentation of the theme Weiss Pro for Ghost",
+  "main": "index.js",
+  "authors": {
+    "name": "Eduardo Gómez",
+    "email": "this.eduardo@gmail.com"
+  },
+  "repository": "https://github.com/eddiesigner/weiss-pro-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
