@@ -36,30 +36,61 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Change Log',
+        link: '/misc/changelog',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Terms',
+        link: '/misc/terms',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Features',
+        link: 'https://weiss-pro.eduardogomez.io/features',
+      },
+      {
+        text: 'Style Guide',
+        link: 'https://weiss-pro.eduardogomez.io/style-guide',
+      },
+      {
+        text: 'Get Weiss Pro',
+        link: 'https://gum.co/pzvDn'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      {
+        title: 'Guide',
+        collapsable: false,
+        children: [
+          '/guide/',
+          '/guide/theme-structure',
+          '/guide/install-theme',
+          '/guide/update-theme',
+          '/guide/publication-settings',
+          '/guide/navigation',
+          '/guide/enable-search',
+          '/guide/enable-authors-page',
+          '/guide/enable-tags-page',
+          '/guide/enable-newsletter',
+          '/guide/add-comments',
+          '/guide/enable-members',
+          '/guide/theme-translation',
+          '/guide/dark-mode',
+          '/guide/theme-development',
+        ]
+      },
+      {
+        title: 'Additional Notes',
+        collapsable: false,
+        children: [
+          '/additional-notes/custom-colors',
+          '/additional-notes/post-templates',
+          '/additional-notes/social-icons',
+          '/additional-notes/tables-and-forms',
+          '/additional-notes/open-external-links',
+          '/additional-notes/resources',
+        ]
+      }
+    ],
   },
 
   /**
