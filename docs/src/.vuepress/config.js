@@ -68,13 +68,13 @@ module.exports = {
           '/guide/publication-settings',
           '/guide/navigation',
           '/guide/enable-search',
+          '/guide/enable-featured-section',
           '/guide/enable-authors-page',
           '/guide/enable-tags-page',
           '/guide/enable-newsletter',
           '/guide/add-comments',
           '/guide/enable-members',
           '/guide/theme-translation',
-          '/guide/dark-mode',
           '/guide/theme-development',
         ]
       },
@@ -82,11 +82,12 @@ module.exports = {
         title: 'Additional Notes',
         collapsable: false,
         children: [
-          '/additional-notes/custom-colors',
+          '/additional-notes/force-mode',
           '/additional-notes/post-templates',
           '/additional-notes/social-icons',
-          '/additional-notes/tables-and-forms',
+          '/additional-notes/use-different-character-encoding',
           '/additional-notes/open-external-links',
+          '/additional-notes/disable-fade-animation',
           '/additional-notes/resources',
         ]
       }
