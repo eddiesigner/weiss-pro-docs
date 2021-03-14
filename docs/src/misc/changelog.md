@@ -1,5 +1,15 @@
 # Change Log
 
+## Version 1.8.0
+> Mar 15th 2021
+
+* Add more templates for posts and pages: [weiss-pro-docs.eduardogomez.io/additional-notes/post-templates.html](/additional-notes/post-templates.html)
+* Remove documentation files from the theme folder
+* Ignore submit event in search form
+* Fix the position of the icon in the secondary menu button
+* Improve and simplify development process
+* Update README and LICENSE files
+
 ## Version 1.7.4
 > Jan 16th 2021
 
@@ -9,7 +19,7 @@
 * Improve debug logs for theme development
 * Update Ghost image version for theme development
 
-## Version 1.7.3
+## Version 1.7.3
 > Dec 14th 2020
 
 * Make images zoomable in articles when they are added as raw html
