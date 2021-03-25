@@ -6,7 +6,7 @@ The user can also choose the mode he wants by pressing the corresponding button 
 
 In case you want to disable that behaviour and keep only one of the two modes (either light or dark) you can do the following:
 
-Paste this code into the **Site Header Code injection** section of your Ghost instance:
+In the Ghost Admin go to **Settings** and click on **Code injection**, then paste the following code into the **Site Header** section:
 
 #### For light mode:
 

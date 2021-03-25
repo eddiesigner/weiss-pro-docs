@@ -10,7 +10,19 @@ In the **General Settings** of the Ghost Admin you can change the name of your p
 
 The theme uses this information in a variety of places, for example in the first section of the home page, so if you want to display other content in that section, these are the settings you will need to change.
 
+## Social Accounts
+
+Ghost allows you to add social accounts links for Facebook and Twitter. By default it includes links from their own social accounts.
+
+To change these links just delete them and enter yours in the **Social Accounts** section at the bottom of the **General Settings** page:
+
+![Social accounts](https://res.cloudinary.com/edev/image/upload/v1607259926/firma/CleanShot_2020-12-06_at_14.04.53_2x.png)
+
+If you don't want to show Facebook and Twitter links just delete the default links and save the changes.
+
 ## Logo & Publication Cover
+
+In the **Branding Settings** of the Ghost Admin you can change the Publication icon and the Publication logo.
 
 **Icon**
 
@@ -29,16 +41,6 @@ If you don't upload a logo the theme will use the title of your publication as l
 ::: warning
 The Publication cover is ignored in this theme to make it more elegant and clean.
 :::
-
-## Social Accounts
-
-Ghost allows you to add social accounts links for Facebook and Twitter. By default it includes links from their own social accounts.
-
-To change these links just delete them and enter yours in the **Social Accounts** section at the bottom of the **General Settings** page:
-
-![Social accounts](https://res.cloudinary.com/edev/image/upload/v1607259926/firma/CleanShot_2020-12-06_at_14.04.53_2x.png)
-
-If you don't want to show Facebook and Twitter links just delete the default links and save the changes.
 
 ## Posts Per Page
 

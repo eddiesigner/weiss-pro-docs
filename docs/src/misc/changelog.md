@@ -1,5 +1,53 @@
 # Change Log
 
+## Version 2.0.0
+> Mar 25th 2021
+
+* **Ghost 4 support** 🎉
+* Update dependencies
+* Replace legacy code
+* Bugfixes and improvements
+
+```
+Modified files:
+
+README.md                          |    2 +-
+author.hbs                         |    2 +-
+custom-page-no-metas-and-share.hbs |   14 +-
+custom-post-no-author-section.hbs  |   24 +-
+custom-post-no-newsletter.hbs      |   16 +-
+default.hbs                        |   21 +-
+index.hbs                          |   28 +-
+locales/en.json                    |    4 -
+locales/es.json                    |    4 -
+members/account.hbs                |   18 +-
+package.json                       |    6 +-
+page.hbs                           |   14 +-
+partials/featured-slide.hbs        |    4 +-
+partials/header.hbs                |   50 +-
+partials/membership.hbs            |    6 +-
+partials/notifications.hbs         |   27 -
+partials/post-card.hbs             |    4 +-
+partials/recent-post.hbs           |    4 +-
+partials/related-post.hbs          |    4 +-
+partials/search.hbs                |    2 +-
+post.hbs                           |   30 +-
+src/docker-compose.yml             |    3 +-
+src/js/account.js                  |    2 +-
+src/js/app.js                      |   77 +-
+src/js/home.js                     |   12 +-
+src/js/post.js                     |    8 +-
+src/js/vendor/content-api.min.js   |    2 +-
+src/package-lock.json              | 7903 +++++++++++++++++++-----------------
+src/package.json                   |   32 +-
+src/webpack.mix.js                 |    6 +
+tag.hbs                            |    2 +-
+
+Removed files:
+
+partials/notifications.hbs
+```
+
 ## Version 1.8.0
 > Mar 15th 2021
 

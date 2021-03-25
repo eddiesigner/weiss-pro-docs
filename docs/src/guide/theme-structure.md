@@ -149,7 +149,6 @@ The theme is organized with the following file structure:
 ├── custom-page-only-content.hbs
 ├── custom-post-no-author-section.hbs
 ├── custom-post-no-newsletter.hbs
-├── custom-without-author-section.hbs
 ├── default.hbs
 ├── error-404.hbs
 ├── index.hbs
@@ -178,7 +177,6 @@ The theme is organized with the following file structure:
 │   ├── navigation.hbs
 │   ├── newsletter-form.hbs
 │   ├── no-posts.hbs
-│   ├── notifications.hbs
 │   ├── pagination.hbs
 │   ├── post-card.hbs
 │   ├── recent-post.hbs
