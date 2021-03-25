@@ -20,17 +20,17 @@ To change these links just delete them and enter yours in the **Social Accounts*
 
 If you don't want to show Facebook and Twitter links just delete the default links and save the changes.
 
-## Logo & Publication Cover
+## Branding
 
-In the **Branding Settings** of the Ghost Admin you can change the Publication icon and the Publication logo.
+In the **Branding Settings** of the Ghost Admin you can change the Publication icon and the Publication logo as well.
 
-**Icon**
+**Publication Icon**
 
-The icon or _favicon_ is a small image that can be seen in the browser tab, next to the title. You can change the icon in the **Publication icon** field located in the  **Publication Identity** section.
+The icon or _favicon_ is a small image that can be seen in the browser tab, next to the title. You can change the icon in this section.
 
-**Logo**
+**Publication Logo**
 
-Ghost by default includes a white logo, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in the  **Publication Identity** section.
+Ghost by default includes a white logo, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in this section section.
 
 In case you delete the default logo and don't upload any logo of your own, the theme will show the publication title instead.
 
