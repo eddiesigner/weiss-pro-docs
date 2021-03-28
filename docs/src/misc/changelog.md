@@ -11,37 +11,37 @@
 ```
 Modified files:
 
-README.md                          |    2 +-
-author.hbs                         |    2 +-
-custom-page-no-metas-and-share.hbs |   14 +-
-custom-post-no-author-section.hbs  |   24 +-
-custom-post-no-newsletter.hbs      |   16 +-
-default.hbs                        |   21 +-
-index.hbs                          |   28 +-
-locales/en.json                    |    4 -
-locales/es.json                    |    4 -
-members/account.hbs                |   18 +-
-package.json                       |    6 +-
-page.hbs                           |   14 +-
-partials/featured-slide.hbs        |    4 +-
-partials/header.hbs                |   50 +-
-partials/membership.hbs            |    6 +-
-partials/notifications.hbs         |   27 -
-partials/post-card.hbs             |    4 +-
-partials/recent-post.hbs           |    4 +-
-partials/related-post.hbs          |    4 +-
-partials/search.hbs                |    2 +-
-post.hbs                           |   30 +-
-src/docker-compose.yml             |    3 +-
-src/js/account.js                  |    2 +-
-src/js/app.js                      |   77 +-
-src/js/home.js                     |   12 +-
-src/js/post.js                     |    8 +-
-src/js/vendor/content-api.min.js   |    2 +-
-src/package-lock.json              | 7903 +++++++++++++++++++-----------------
-src/package.json                   |   32 +-
-src/webpack.mix.js                 |    6 +
-tag.hbs                            |    2 +-
+README.md                        
+author.hbs                       
+custom-page-no-metas-and-share.hbs 
+custom-post-no-author-section.hbs 
+custom-post-no-newsletter.hbs 
+default.hbs 
+index.hbs  
+locales/en.json 
+locales/es.json 
+members/account.hbs 
+package.json             
+page.hbs  
+partials/featured-slide.hbs
+partials/header.hbs  
+partials/membership.hbs  
+partials/notifications.hbs 
+partials/post-card.hbs     
+partials/recent-post.hbs   
+partials/related-post.hbs  
+partials/search.hbs              
+post.hbs   
+src/docker-compose.yml  
+src/js/account.js                
+src/js/app.js 
+src/js/home.js  
+src/js/post.js  
+src/js/vendor/content-api.min.js 
+src/package-lock.json  
+src/package.json  
+src/webpack.mix.js      
+tag.hbs          
 
 Removed files:
 
