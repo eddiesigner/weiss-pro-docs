@@ -1,5 +1,25 @@
 # Change Log
 
+## Version 2.0.1
+> May 1th 2021
+
+* Public Previews support
+* Update Ghost image (only for development)
+
+```
+Modified files:
+
+custom-page-no-metas-and-share.hbs
+custom-page-no-newsletter.hbs
+custom-page-only-content.hbs
+custom-post-no-author-section.hbs
+custom-post-no-newsletter.hbs
+package.json
+page.hbs
+post.hbs
+src/docker-compose.yml
+```
+
 ## Version 2.0.0
 > Mar 25th 2021
 
