@@ -3,7 +3,7 @@
 ## Version 2.0.1
 > May 1th 2021
 
-* Public Previews support
+* Public Previews support [https://ghost.org/help/public-previews/](https://ghost.org/help/public-previews/)
 * Update Ghost image (only for development)
 
 ```
