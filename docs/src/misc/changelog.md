@@ -1,5 +1,34 @@
 # Change Log
 
+## Version 2.5.0
+> 28/12/2021
+
+* Add full support for new content cards: [https://ghost.org/changelog/cardmas/](https://ghost.org/changelog/cardmas/)
+* Custom settings support: [https://ghost.org/changelog/custom-design-settings/](https://ghost.org/changelog/custom-design-settings/)
+* Update Ghost image (only for development)
+* Bug fixes and improvements
+
+```
+Added files:
+
+partials/home-hero.hbs
+partials/home-slider.hbs
+
+Modified files:
+
+default.hbs
+index.hbs
+LICENSE
+package.json
+partials/header.hbs
+README.md
+src/docker-compose.yml
+src/js/post.js
+src/sass/components/article/_content.scss
+src/sass/components/header/_logo.scss
+src/sass/post.scss
+```
+
 ## Version 2.0.2
 > 10/10/2021
 

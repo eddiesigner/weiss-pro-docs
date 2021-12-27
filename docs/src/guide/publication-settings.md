@@ -30,17 +30,23 @@ The icon or _favicon_ is a small image that can be seen in the browser tab, next
 
 **Publication Logo**
 
-Ghost by default includes a white logo, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in this section.
+Ghost includes a logo by default, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in this section.
 
-In case you delete the default logo and don't upload any logo of your own, the theme will show the publication title instead.
+If your logo does not look good in dark mode, you can upload an additional logo to be displayed when dark mode is activated. You can upload your second logo in the theme design settings as shown below:
+
+![Logo for dark mode](https://res.cloudinary.com/edev/image/upload/v1640607161/weiss-pro/CleanShot_2021-12-27_at_13.12.03.png)
 
 ::: tip
 If you don't upload a logo the theme will use the title of your publication as logo, which will be displayed correctly in both light mode and dark mode.
 :::
 
 ::: warning
-The Publication cover is ignored in this theme to make it more elegant and clean.
+The second logo option is only available if you're using Ghost 4.20.0 or later and Weiss Pro 2.5.0 or later.
 :::
+
+**Publication Cover**
+
+The Publication cover is ignored in this theme to make it more elegant and clean.
 
 ## Posts Per Page
 

@@ -1,4 +1,4 @@
-# Open external links in a new tab by default
+# Open External Links in a New Tab by Default
 
 If you want all the external links to open in another tab you have to paste the following code into the **Code injection** page of your Ghost Admin (**Site Footer** section):
 
