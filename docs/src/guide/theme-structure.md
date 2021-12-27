@@ -190,10 +190,6 @@ The theme is organized with the following file structure:
 └── tag.hbs
 ```
 
-::: tip
-The `src` folder is only for development and contains all the source code of this theme, it's useful only if you want to make several changes on this theme or if you want to build your own theme on top of it.
-:::
-
 ::: warning
 Avoid making changes to the files in the Assets folder as these will be overwritten with each new version. For small changes you can inject code in the Ghost Admin instead.
 :::
