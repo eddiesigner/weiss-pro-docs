@@ -24,6 +24,10 @@ If you don't want to show Facebook and Twitter links just delete the default lin
 
 In the **Branding Settings** of the Ghost Admin you can change the Publication icon and the Publication logo as well.
 
+**Accent Color**
+
+The accent color is ignored in this theme to keep a consistent and elegant design.
+
 **Publication Icon**
 
 The icon or _favicon_ is a small image that can be seen in the browser tab, next to the title. You can change the icon in this section.
@@ -46,7 +50,23 @@ The second logo option is only available if you're using Ghost 4.20.0 or later a
 
 **Publication Cover**
 
-The Publication cover is ignored in this theme to make it more elegant and clean.
+You can also change the cover which is shown in the first section of the home page. To change it just delete the default image in the **Publication Cover** field and upload the image you prefer.
+
+Here's a screenshot of these settings:
+
+![](https://res.cloudinary.com/edev/image/upload/v1644747365/weiss-pro/CleanShot_2022-02-13_at_11.14.15.png)
+
+Note that the theme will not use the publication cover by default, in order for it to be taken into account you must activate the "**Use publication cover**" option in the theme design settings. This is so as not to suddenly change the design of publications that have been using Weiss Pro for a long time and prefer to keep the design simpler and cleaner.
+
+![](https://res.cloudinary.com/edev/image/upload/v1644747651/weiss-pro/CleanShot_2022-02-13_at_11.19.57.png)
+
+::: tip
+If you have marked articles as featured and want the cover of the publication to be visible instead of the featured articles slider, you must also enable the option "**Disable featured articles section**".
+:::
+
+::: warning
+This option is only available if you're using Ghost 4.20.0 or later and Weiss Pro 2.5.1 or later.
+:::
 
 ## Posts Per Page
 

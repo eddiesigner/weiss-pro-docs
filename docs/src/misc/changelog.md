@@ -1,5 +1,24 @@
 # Change Log
 
+## Version 2.5.1
+> 14/02/2022
+
+* Publication cover support 🎉
+* New option to override the footnote text
+
+```
+Modified files:
+
+README.md
+index.hbs
+package.json
+partials/footer.hbs
+partials/home-hero.hbs
+partials/home-slider.hbs
+src/sass/components/forms/_button.scss
+src/sass/components/general/_blog-heading.scss
+```
+
 ## Version 2.5.0
 > 28/12/2021
 

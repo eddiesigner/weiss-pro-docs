@@ -38,11 +38,13 @@ Finally press the **Save** button and refresh your website to see the changes.
 
 ## Hero Section
 
-![](https://res.cloudinary.com/edev/image/upload/v1640608515/weiss-pro/CleanShot_2021-12-27_at_13.34.48.png)
+![](https://res.cloudinary.com/edev/image/upload/v1644749440/weiss-pro/CleanShot_2022-02-13_at_11.49.46.png)
 
 As mentioned above, this section will be shown in case you do not mark any article as featured, however, if you prefer this section to be shown all the time you can disable the Featured Articles Section in the theme design settings as shown bellow:
 
-![](https://res.cloudinary.com/edev/image/upload/v1640609926/weiss-pro/CleanShot_2021-12-27_at_13.58.07.png)
+![](https://res.cloudinary.com/edev/image/upload/v1644749587/weiss-pro/CleanShot_2022-02-13_at_11.52.38.png)
+
+Note that the theme will not use the publication cover by default, in order for it to be taken into account you must activate the "**Use publication cover**" option in the theme design settings. Learn more about this option in the [Branding Settings](/guide/publication-settings.html#branding) page.
 
 ### Custom CTA Button
 

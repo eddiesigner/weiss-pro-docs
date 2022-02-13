@@ -75,6 +75,7 @@ module.exports = {
           '/guide/add-comments',
           '/guide/enable-members',
           '/guide/theme-translation',
+          '/guide/footnote-override',
           '/guide/theme-development',
         ]
       },
