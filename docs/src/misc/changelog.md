@@ -1,5 +1,21 @@
 # Change Log
 
+
+## Version 2.5.2
+> 25/04/2022
+
+* Fixed the flickering that used to occur on page load when setting either light or dark mode.
+
+```
+Modified files:
+
+default.hbs
+package.json
+src/js/app.js
+src/js/helpers.js
+src/sass/common/_themes.scss
+```
+
 ## Version 2.5.1
 > 14/02/2022
 

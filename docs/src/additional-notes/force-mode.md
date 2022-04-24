@@ -1,21 +1,17 @@
 # Force Light or Dark Mode
 
-The default mode used by Weiss Pro is light but if the user's operating system has dark mode enabled, then it will automatically switch to the dark mode.
-
-The user can also choose the mode he wants by pressing the corresponding button in the main menu.
+The default mode used by Weiss Pro is the light mode, this can be changed by the user by clicking the dark mode toggle button located in the main menu.
 
 In case you want to disable that behaviour and keep only one of the two modes (either light or dark) you can do the following:
 
 In the Ghost Admin go to **Settings** and click on **Code injection**, then paste the following code into the **Site Header** section:
 
-#### For light mode:
+#### Force light mode:
 
 ```html
 <style>
-  :root,
   [data-theme="light"],
-  [data-theme="dark"],
-  :root:not([data-theme="light"]) {
+  [data-theme="dark"] {
     --background-color: #FFFFFF;
     --primary-foreground-color: #2A2A2A;
     --secondary-foreground-color: #333333;
@@ -42,14 +38,12 @@ In the Ghost Admin go to **Settings** and click on **Code injection**, then past
 </style>
 ```
 
-#### For dark mode:
+#### Force dark mode:
 
 ```html
 <style>
-  :root,
   [data-theme="light"],
-  [data-theme="dark"],
-  :root:not([data-theme="light"]) {
+  [data-theme="dark"] {
     --background-color: #000000;
     --primary-foreground-color: #EFEFEF;
     --secondary-foreground-color: #DDDDDD;
