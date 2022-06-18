@@ -1,5 +1,41 @@
 # Change Log
 
+## Version 3.0.0
+> 20/06/2022
+
+* **Ghost 5 support** 🎉
+* Membership Tiers support: [ghost.org/help/tiers/](https://ghost.org/help/tiers/)
+* Update Docker Ghost image (development only)
+* Bug fixes and improvements
+
+```
+Added files:
+
+src/js/membership.js
+src/sass/components/members/_plan-selector.scss
+
+Modified files:
+
+README.md
+custom-page-no-metas-and-share.hbs
+custom-post-no-author-section.hbs
+index.hbs
+members/membership.hbs
+package.json
+page.hbs
+partials/header.hbs
+partials/home-hero.hbs
+partials/membership.hbs
+post.hbs
+src/docker-compose.yml
+src/js/app.js
+src/js/vendor/content-api.min.js
+src/sass/components/members/_subscription.scss
+src/sass/layouts/_subscriptions.scss
+src/sass/membership.scss
+src/webpack.mix.js
+```
+
 
 ## Version 2.5.2
 > 25/04/2022

@@ -136,6 +136,7 @@ The theme is organized with the following file structure:
 │   │   ├── helpers.js
 │   │   ├── home.js
 │   │   ├── manifest.js
+│   │   ├── membership.js
 │   │   ├── post.js
 │   │   ├── vendor
 │   │   │   └── content-api.min.js
@@ -191,5 +192,5 @@ The theme is organized with the following file structure:
 ```
 
 ::: warning
-Avoid making changes to the files in the Assets folder as these will be overwritten with each new version. For small changes you can inject code in the Ghost Admin instead.
+Avoid making changes to the files in the **assets** folder as these will be overwritten with each new version. For small changes you can inject code in the Ghost Admin instead.
 :::
