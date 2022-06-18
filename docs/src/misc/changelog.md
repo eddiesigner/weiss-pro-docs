@@ -21,6 +21,7 @@ custom-page-no-metas-and-share.hbs
 custom-post-no-author-section.hbs
 index.hbs
 members/membership.hbs
+members/signup.hbs
 package.json
 page.hbs
 partials/header.hbs
