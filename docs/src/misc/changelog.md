@@ -9,6 +9,30 @@
 * Bug fixes and improvements
 * Update dependencies
 
+```
+Modified files:
+
+README.md
+default.hbs
+package.json
+partials/comments.hbs
+partials/footer.hbs
+partials/header.hbs
+src/docker-compose.yml
+src/js/app.js
+src/js/home.js
+src/js/post.js
+src/package-lock.json
+src/package.json
+src/sass/components/article/_content.scss
+src/sass/layouts/_comments.scss
+src/webpack.mix.js
+
+Deleted files:
+
+src/js/vendor/content-api.min.js
+```
+
 ## Version 3.0.0
 > 20/06/2022
 
