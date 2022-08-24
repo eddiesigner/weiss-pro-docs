@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 3.1.0
+> 25/08/2022
+
+* Native search support: [ghost.org/changelog/search/](https://ghost.org/changelog/search/)
+* Native comments support: [ghost.org/changelog/native-comments/](https://ghost.org/changelog/native-comments/)
+* Update Docker Ghost image (development only)
+* Bug fixes and improvements
+* Update dependencies
+
 ## Version 3.0.0
 > 20/06/2022
 

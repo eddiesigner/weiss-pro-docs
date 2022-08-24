@@ -1,12 +1,24 @@
 # Enable Search
 
-The search uses a Content API Key in order to work, that means the first thing you have to do is to generate a new Key, to do so please follow these steps:
+## Ghost Native Search
+
+As of Ghost 5.30.0 it's now possible to use the brand new native search functionality, you can learn more about it here: [ghost.org/changelog/search/](https://ghost.org/changelog/search/)
+
+This feature is not enabled by default, if you prefer the native search over the custom search provided by the theme you have to enable it in the theme settings under the **Site-wide** section:
+
+![](https://res.cloudinary.com/edev/image/upload/v1661366573/weiss-pro/CleanShot_2022-08-24_at_20.41.57.png)
+
+Please note that unlike the theme custom search, **you don't need to generate a Content API Key** in order to make it work, you can leave that field as it is.
+
+## Theme Custom Search
+
+The custom search uses a Content API Key in order to work, that means the first thing you have to do is to generate a new key, to do so please follow these steps:
 
 In the Ghost Admin head to the **Integrations** page and press the **Add custom integration** button. You can name it as you like but I recommend that you name it _Search_.
 
 Copy the **Content API Key**.
 
-## Add your Content API Key
+### Add your Content API Key
 
 If you're using Ghost 4.20.0 or later and Weiss Pro 2.5.0 or later you can simply paste the key in the theme design settings as shown bellow:
 
