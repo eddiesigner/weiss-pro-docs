@@ -1,5 +1,20 @@
 # Change Log
 
+## Version 3.1.1
+> 01/11/2022
+
+* Fix an issue where product card images had a wrong aspect ratio
+* Update Ghost image version (development only)
+* Bump version
+
+```
+Modified files:
+
+* package.json
+* src/docker-compose.yml
+* src/sass/components/article/_content.scss
+```
+
 ## Version 3.1.0
 > 25/08/2022
 
