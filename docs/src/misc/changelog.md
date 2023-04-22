@@ -1,5 +1,31 @@
 # Change Log
 
+## Version 3.2.0
+> 24/04/2023
+
+* Introduced a new custom setting to use only Portal for Members instead of the related features provided by the theme ([learn more](/guide/enable-members.html#portal))
+* The Newsletter form at the bottom of the page is now hidden when the user is logged-in
+* Updated Ghost image version (development only)
+* Bump version
+
+```
+Modified files:
+
+.gitignore
+custom-page-no-metas-and-share.hbs
+custom-post-no-author-section.hbs
+index.hbs
+package.json
+page.hbs
+partials/full-content.hbs
+partials/header.hbs
+partials/home-hero.hbs
+partials/newsletter-form.hbs
+post.hbs
+src/docker-compose.yml
+src/js/post.js
+```
+
 ## Version 3.1.2
 > 12/12/2022
 
