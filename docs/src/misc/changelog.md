@@ -27,6 +27,7 @@ Modified files:
 * src/sass/common/_global.scss
 * src/sass/common/_variables.scss
 * src/sass/components/article/_hero.scss
+* src/sass/components/articles/_featured-slide.scss
 * src/sass/components/general/_heading.scss
 * src/sass/components/header/_header.scss
 * src/sass/layouts/_404.scss
