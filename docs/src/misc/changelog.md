@@ -1,5 +1,38 @@
 # Change Log
 
+## Version 3.2.1
+> 29/05/2023
+
+* Native support for [Announcement bar](https://ghost.org/changelog/announcement-bar/)
+* Sort "Related posts" by recently published
+* Added additional classes in Post layout
+* Updated Ghost image version (development only)
+* Bump version number
+
+```
+Added files:
+
++ src/sass/components/header/_announcement-bar.scss
+
+Modified files:
+
+* custom-post-no-author-section.hbs
+* custom-post-no-newsletter.hbs
+* package.json
+* post.hbs
+* src/docker-compose.yml
+* src/js/app.js
+* src/js/home.js
+* src/sass/app.scss
+* src/sass/common/_global.scss
+* src/sass/common/_variables.scss
+* src/sass/components/article/_hero.scss
+* src/sass/components/general/_heading.scss
+* src/sass/components/header/_header.scss
+* src/sass/layouts/_404.scss
+* src/sass/layouts/_auth.scss
+```
+
 ## Version 3.2.0
 > 24/04/2023
 
@@ -11,19 +44,19 @@
 ```
 Modified files:
 
-.gitignore
-custom-page-no-metas-and-share.hbs
-custom-post-no-author-section.hbs
-index.hbs
-package.json
-page.hbs
-partials/full-content.hbs
-partials/header.hbs
-partials/home-hero.hbs
-partials/newsletter-form.hbs
-post.hbs
-src/docker-compose.yml
-src/js/post.js
+* .gitignore
+* custom-page-no-metas-and-share.hbs
+* custom-post-no-author-section.hbs
+* index.hbs
+* package.json
+* page.hbs
+* partials/full-content.hbs
+* partials/header.hbs
+* partials/home-hero.hbs
+* partials/newsletter-form.hbs
+* post.hbs
+* src/docker-compose.yml
+* src/js/post.js
 ```
 
 ## Version 3.1.2
