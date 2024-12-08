@@ -2,27 +2,27 @@
 
 Weiss Pro includes the following social icons in case you want to use them somewhere in your website:
 
-* Imdb
-* VK
-* Steam
-* Vimeo
-* RSS
-* Spotify
-* Telegram
-* SoundCloud
-* TikTok
-* Wechat
+* Behance
 * DeviantArt
 * Discord
-* Snapchat
-* Behance
+* Facebook
 * Github
 * Instagram
+* Imdb
 * Linkedin
 * Pinterest
-* Youtube
+* RSS
+* Snapchat
+* SoundCloud
+* Spotify
+* Steam
+* Telegram
+* TikTok
+* Tumblr
 * Twitter
-* Facebook
+* VK
+* Vimeo
+* Youtube
 
 To use any of these icons you must use a code like this:
 

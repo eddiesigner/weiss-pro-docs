@@ -1,5 +1,49 @@
 # Change Log
 
+## Version 3.5.0
+> 09/12/2024
+
+* Added support for [custom fonts](/guide/custom-fonts.html)
+* Yearly plans are now displayed by default on the Membership page
+* Added a button on the Account page so members can edit their account details
+* Updated Twitter icon with a new X icon
+* Fixed an issue where the price of a subscription plan had a wrong format under certain circumstances
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Added files:
+
++ src/deploy/index.js
+
+Modified files:
+
+* author.hbs
+* custom-post-no-newsletter.hbs
+* default.hbs
+* locales/en.json
+* locales/es.json
+* members/account.hbs
+* package.json
+* partials/author-card.hbs
+* partials/footer.hbs
+* partials/header.hbs
+* partials/membership.hbs
+* partials/share.hbs
+* post.hbs
+* src/docker-compose.yml
+* src/js/account.js
+* src/js/membership.js
+* src/package-lock.json
+* src/package.json
+* src/sass/common/_icons.scss
+* src/sass/common/_variables.scss
+* src/sass/fonts/icomoon/icomoon.eot
+* src/sass/fonts/icomoon/icomoon.svg
+* src/sass/fonts/icomoon/icomoon.ttf
+* src/sass/fonts/icomoon/icomoon.woff
+```
+
 ## Version 3.3.0
 > 09/10/2023
 
