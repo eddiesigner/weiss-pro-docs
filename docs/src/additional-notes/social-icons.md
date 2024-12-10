@@ -19,9 +19,9 @@ Weiss Pro includes the following social icons in case you want to use them somew
 * Telegram
 * TikTok
 * Tumblr
-* Twitter
 * VK
 * Vimeo
+* X
 * Youtube
 
 To use any of these icons you must use a code like this:
