@@ -1,5 +1,34 @@
 # Change Log
 
+## Version 3.6.0
+> 02/06/2025
+
+* Added support for [more staff social links](https://ghost.org/changelog/social-links/)
+* Added BlueSky, Mastodon and Threads icons
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Added files:
+
++ src/sass/fonts/icomoon/icomoon.woff2
+
+Modified files:
+
+* author.hbs
+* default.hbs
+* package.json
+* partials/author-card.hbs
+* src/docker-compose.yml
+* src/sass/common/_icons.scss
+* src/sass/components/articles/_post-card.scss
+* src/sass/components/authors/_featured-author.scss
+* src/sass/fonts/icomoon/icomoon.eot
+* src/sass/fonts/icomoon/icomoon.svg
+* src/sass/fonts/icomoon/icomoon.ttf
+* src/sass/fonts/icomoon/icomoon.woff
+```
+
 ## Version 3.5.0
 > 09/12/2024
 

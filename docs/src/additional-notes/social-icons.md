@@ -3,6 +3,7 @@
 Weiss Pro includes the following social icons in case you want to use them somewhere in your website:
 
 * Behance
+* BlueSky
 * DeviantArt
 * Discord
 * Facebook
@@ -10,6 +11,7 @@ Weiss Pro includes the following social icons in case you want to use them somew
 * Instagram
 * Imdb
 * Linkedin
+* Mastodon
 * Pinterest
 * RSS
 * Snapchat
@@ -17,6 +19,7 @@ Weiss Pro includes the following social icons in case you want to use them somew
 * Spotify
 * Steam
 * Telegram
+* Threads
 * TikTok
 * Tumblr
 * VK
