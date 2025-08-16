@@ -1,5 +1,22 @@
 # Change Log
 
+## Version 3.7.0
+> 18/08/2025
+
+* **Ghost 6 support** 🎉
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Modified files:
+
+* package.json
+* page-authors.hbs
+* page-tags.hbs
+* partials/membership.hbs
+* src/docker-compose.yml
+```
+
 ## Version 3.6.0
 > 02/06/2025
 
