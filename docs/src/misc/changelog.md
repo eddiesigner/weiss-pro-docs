@@ -10,6 +10,7 @@
 ```
 Modified files:
 
+* README.md
 * package.json
 * page-authors.hbs
 * page-tags.hbs
