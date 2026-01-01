@@ -1,5 +1,62 @@
 # Change Log
 
+## Version 3.8.0
+> 02/01/2026
+
+* Added support for [call to action cards](https://ghost.org/help/cards/#call-to-action)
+* Added support for [One-time codes for sign in](https://ghost.org/changelog/one-time-codes-for-sign-in/)
+* Use new `social_url` helper instead of `twitter_url` and `facebook_url` helpers
+* The text and background colors in dark mode of audio, file, and product cards were fixed
+* Use Vite instead of Webpack for local development
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Added files:
++ src/bs-config.cjs
++ src/js/vendor/aos.min.js
++ src/vite.config.js
+
+Modified files:
+* .github/workflows/deploy-theme.yml
+* .gitignore
+* README.md
+* author.hbs
+* custom-page-no-metas-and-share.hbs
+* custom-page-no-newsletter.hbs
+* custom-page-only-content.hbs
+* custom-post-no-author-section.hbs
+* custom-post-no-newsletter.hbs
+* default.hbs
+* index.hbs
+* members/account.hbs
+* members/membership.hbs
+* members/signin.hbs
+* package.json
+* page-tags.hbs
+* page.hbs
+* partials/author-card.hbs
+* partials/footer.hbs
+* partials/header.hbs
+* post.hbs
+* src/deploy/index.js
+* src/docker-compose.yml
+* src/js/app.js
+* src/js/home.js
+* src/js/post.js
+* src/order-locales.js
+* src/package-lock.json
+* src/package.json
+* src/sass/app.scss
+* src/sass/common/_helpers.scss
+* src/sass/components/article/_content.scss
+* src/sass/components/articles/_post-card.scss
+* src/sass/home.scss
+
+Removed files:
+- src/webpack.mix.js
+```
+
 ## Version 3.7.0
 > 18/08/2025
 
